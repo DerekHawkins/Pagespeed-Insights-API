@@ -21,7 +21,7 @@ import time
 ### Payload for API call, set up for DataFrame ###
 key = #insert your key here. For assistance with generating key, consult this link https://developers.google.com/speed/docs/insights/v5/get-started
 ### 1 column, First row must contain URL (in all caps) ###
-speed_test_urls = pd.read_excel('C:/Users/Derek.Hawkins/Desktop/A Bunch of Excel Sheets/speed_test_api_dev.xlsx')
+speed_test_urls = pd.read_excel(#Insert path to your CSV file)
 urls = speed_test_urls["URL"]
 check = "captchaResult"
 data_list_mobile = []
