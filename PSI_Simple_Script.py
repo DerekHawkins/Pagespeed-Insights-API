@@ -73,4 +73,4 @@ df_mobile = pd.DataFrame(data_list_mobile, columns=["First Content Paint - Mobil
 df_desktop = pd.DataFrame(data_list_desktop, columns = ["First Content Paint - Desktop", "Time to Interactive - Desktop", "Speed Index - Desktop"]) 
 pagespeed_report = pd.concat([df_mobile,df_desktop], axis=1)
 pagespeed_report["URL"] = urls
-#pagespeed_report.to_csv(#insert your path here)
+pagespeed_report.to_csv(#insert your path here)
