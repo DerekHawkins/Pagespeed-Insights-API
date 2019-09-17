@@ -7,3 +7,8 @@ For assistance with generating key necessary to run this script, see https://dev
 
 
 Please see documentation when making modifications to this code: https://developers.google.com/speed/docs/insights/v5/reference/
+
+<strong>Requirements</strong>
+<ui>
+  <li><a href='https://pypi.org/project/easygui/'>EasyGUI</a></li>
+  </ui>
